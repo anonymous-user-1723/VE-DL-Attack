@@ -1,0 +1,250 @@
+Attack index 0:
+Tk0 value is 4
+Trying kg0 value 0
+[Debug] Stage1 found 276 surviving (k1,k2) pairs
+Trying kg0 value 1
+[Debug] Stage1 found 260 surviving (k1,k2) pairs
+Trying kg0 value 2
+[Debug] Stage1 found 267 surviving (k1,k2) pairs
+Trying kg0 value 3
+[Debug] Stage1 found 322 surviving (k1,k2) pairs
+Trying kg0 value 4
+[Debug] Found the correct key guess in stage1!
+[Debug] Stage1 found 286 surviving (k1,k2) pairs
+[Debug] Found the correct key guess in stage2!
+[Debug] Found the correct key guess in stage3!
+[Debug] Found the correct key guess in stage4!
+A key guess is returned. Kg difference is (0,0,0).
+Attack succeeded!
+Kg surviving num in stage1: 1411
+Kg surviving num in stage2: 4
+Kg surviving num in stage3: 4
+Kg surviving num in stage4: 1
+Time used: 12143.48 seconds
+Attack index 1:
+Tk0 value is 7
+Trying kg0 value 0
+[Debug] Stage1 found 273 surviving (k1,k2) pairs
+Trying kg0 value 1
+[Debug] Stage1 found 248 surviving (k1,k2) pairs
+Trying kg0 value 2
+[Debug] Stage1 found 282 surviving (k1,k2) pairs
+Trying kg0 value 3
+[Debug] Stage1 found 269 surviving (k1,k2) pairs
+Trying kg0 value 4
+[Debug] Stage1 found 250 surviving (k1,k2) pairs
+Trying kg0 value 5
+[Debug] Stage1 found 274 surviving (k1,k2) pairs
+Trying kg0 value 6
+[Debug] Stage1 found 232 surviving (k1,k2) pairs
+Trying kg0 value 7
+[Debug] Found the correct key guess in stage1!
+[Debug] Stage1 found 250 surviving (k1,k2) pairs
+[Debug] Found the correct key guess in stage2!
+[Debug] Found the correct key guess in stage3!
+[Debug] Found the correct key guess in stage4!
+A key guess is returned. Kg difference is (0,0,0).
+Attack succeeded!
+Kg surviving num in stage1: 2078
+Kg surviving num in stage2: 11
+Kg surviving num in stage3: 2
+Kg surviving num in stage4: 1
+Time used: 18207.73 seconds
+Attack index 2:
+Tk0 value is 7
+Trying kg0 value 0
+[Debug] Stage1 found 257 surviving (k1,k2) pairs
+Trying kg0 value 1
+[Debug] Stage1 found 242 surviving (k1,k2) pairs
+Trying kg0 value 2
+[Debug] Stage1 found 286 surviving (k1,k2) pairs
+Trying kg0 value 3
+[Debug] Stage1 found 272 surviving (k1,k2) pairs
+Trying kg0 value 4
+[Debug] Stage1 found 237 surviving (k1,k2) pairs
+Trying kg0 value 5
+[Debug] Stage1 found 266 surviving (k1,k2) pairs
+Trying kg0 value 6
+[Debug] Stage1 found 218 surviving (k1,k2) pairs
+Trying kg0 value 7
+[Debug] Found the correct key guess in stage1!
+[Debug] Stage1 found 212 surviving (k1,k2) pairs
+[Debug] Found the correct key guess in stage2!
+[Debug] Found the correct key guess in stage3!
+[Debug] Found the correct key guess in stage4!
+A key guess is returned. Kg difference is (0,0,0).
+Attack succeeded!
+Kg surviving num in stage1: 1990
+Kg surviving num in stage2: 5
+Kg surviving num in stage3: 2
+Kg surviving num in stage4: 1
+Time used: 17557.21 seconds
+Attack index 3:
+Tk0 value is 3
+Trying kg0 value 0
+[Debug] Stage1 found 259 surviving (k1,k2) pairs
+Trying kg0 value 1
+[Debug] Stage1 found 283 surviving (k1,k2) pairs
+Trying kg0 value 2
+[Debug] Stage1 found 214 surviving (k1,k2) pairs
+Trying kg0 value 3
+[Debug] Found the correct key guess in stage1!
+[Debug] Stage1 found 226 surviving (k1,k2) pairs
+[Debug] Found the correct key guess in stage2!
+[Debug] Found the correct key guess in stage3!
+[Debug] Found the correct key guess in stage4!
+A key guess is returned. Kg difference is (0,0,0).
+Attack succeeded!
+Kg surviving num in stage1: 982
+Kg surviving num in stage2: 3
+Kg surviving num in stage3: 2
+Kg surviving num in stage4: 1
+Time used: 8682.62 seconds
+Attack index 4:
+Tk0 value is 6
+Trying kg0 value 0
+[Debug] Stage1 found 241 surviving (k1,k2) pairs
+Trying kg0 value 1
+[Debug] Stage1 found 222 surviving (k1,k2) pairs
+Trying kg0 value 2
+[Debug] Stage1 found 301 surviving (k1,k2) pairs
+Trying kg0 value 3
+[Debug] Stage1 found 288 surviving (k1,k2) pairs
+Trying kg0 value 4
+[Debug] Stage1 found 241 surviving (k1,k2) pairs
+Trying kg0 value 5
+[Debug] Stage1 found 273 surviving (k1,k2) pairs
+Trying kg0 value 6
+[Debug] Found the correct key guess in stage1!
+[Debug] Stage1 found 268 surviving (k1,k2) pairs
+[Debug] Found the correct key guess in stage2!
+[Debug] Found the correct key guess in stage3!
+[Debug] Found the correct key guess in stage4!
+A key guess is returned. Kg difference is (0,0,0).
+Attack succeeded!
+Kg surviving num in stage1: 1834
+Kg surviving num in stage2: 7
+Kg surviving num in stage3: 2
+Kg surviving num in stage4: 1
+Time used: 14502.52 seconds
+Attack index 5:
+Tk0 value is 0
+Trying kg0 value 0
+[Debug] Found the correct key guess in stage1!
+[Debug] Stage1 found 262 surviving (k1,k2) pairs
+[Debug] Found the correct key guess in stage2!
+[Debug] Found the correct key guess in stage3!
+[Debug] Found the correct key guess in stage4!
+A key guess is returned. Kg difference is (0,0,0).
+Attack succeeded!
+Kg surviving num in stage1: 262
+Kg surviving num in stage2: 2
+Kg surviving num in stage3: 2
+Kg surviving num in stage4: 1
+Time used: 2624.16 seconds
+Attack index 6:
+Tk0 value is 6
+Trying kg0 value 0
+[Debug] Stage1 found 221 surviving (k1,k2) pairs
+Trying kg0 value 1
+[Debug] Stage1 found 272 surviving (k1,k2) pairs
+Trying kg0 value 2
+[Debug] Stage1 found 265 surviving (k1,k2) pairs
+Trying kg0 value 3
+[Debug] Stage1 found 272 surviving (k1,k2) pairs
+Trying kg0 value 4
+[Debug] Stage1 found 261 surviving (k1,k2) pairs
+Trying kg0 value 5
+[Debug] Stage1 found 229 surviving (k1,k2) pairs
+Trying kg0 value 6
+[Debug] Stage1 found 266 surviving (k1,k2) pairs
+Trying kg0 value 7
+[Debug] Stage1 found 257 surviving (k1,k2) pairs
+Attack failed because no key guess survived!
+Kg surviving num in stage1: 2043
+Kg surviving num in stage2: 7
+Kg surviving num in stage3: 0
+Kg surviving num in stage4: 0
+Time used: 16122.49 seconds
+Attack index 7:
+Tk0 value is 4
+Trying kg0 value 0
+[Debug] Stage1 found 251 surviving (k1,k2) pairs
+Trying kg0 value 1
+[Debug] Stage1 found 207 surviving (k1,k2) pairs
+Trying kg0 value 2
+[Debug] Stage1 found 249 surviving (k1,k2) pairs
+Trying kg0 value 3
+[Debug] Stage1 found 268 surviving (k1,k2) pairs
+Trying kg0 value 4
+[Debug] Found the correct key guess in stage1!
+[Debug] Stage1 found 272 surviving (k1,k2) pairs
+[Debug] Found the correct key guess in stage2!
+[Debug] Found the correct key guess in stage3!
+[Debug] Found the correct key guess in stage4!
+A key guess is returned. Kg difference is (0,0,0).
+Attack succeeded!
+Kg surviving num in stage1: 1247
+Kg surviving num in stage2: 4
+Kg surviving num in stage3: 2
+Kg surviving num in stage4: 1
+Time used: 9842.33 seconds
+Attack index 8:
+Tk0 value is 6
+Trying kg0 value 0
+[Debug] Stage1 found 246 surviving (k1,k2) pairs
+Trying kg0 value 1
+[Debug] Stage1 found 273 surviving (k1,k2) pairs
+Trying kg0 value 2
+[Debug] Stage1 found 239 surviving (k1,k2) pairs
+Trying kg0 value 3
+[Debug] Stage1 found 248 surviving (k1,k2) pairs
+Trying kg0 value 4
+[Debug] Stage1 found 273 surviving (k1,k2) pairs
+Trying kg0 value 5
+[Debug] Stage1 found 249 surviving (k1,k2) pairs
+Trying kg0 value 6
+[Debug] Stage1 found 254 surviving (k1,k2) pairs
+Trying kg0 value 7
+[Debug] Stage1 found 275 surviving (k1,k2) pairs
+Attack failed because no key guess survived!
+Kg surviving num in stage1: 2057
+Kg surviving num in stage2: 2
+Kg surviving num in stage3: 0
+Kg surviving num in stage4: 0
+Time used: 16311.46 seconds
+Attack index 9:
+Tk0 value is 7
+Trying kg0 value 0
+[Debug] Stage1 found 271 surviving (k1,k2) pairs
+Trying kg0 value 1
+[Debug] Stage1 found 265 surviving (k1,k2) pairs
+Trying kg0 value 2
+[Debug] Stage1 found 258 surviving (k1,k2) pairs
+Trying kg0 value 3
+[Debug] Stage1 found 256 surviving (k1,k2) pairs
+Trying kg0 value 4
+[Debug] Stage1 found 281 surviving (k1,k2) pairs
+Trying kg0 value 5
+[Debug] Stage1 found 272 surviving (k1,k2) pairs
+Trying kg0 value 6
+[Debug] Stage1 found 259 surviving (k1,k2) pairs
+Trying kg0 value 7
+[Debug] Stage1 found 242 surviving (k1,k2) pairs
+Attack failed because no key guess survived!
+Kg surviving num in stage1: 2104
+Kg surviving num in stage2: 5
+Kg surviving num in stage3: 0
+Kg surviving num in stage4: 0
+Time used: 15496.10 seconds
+Kg surviving rate: 0.70. Attack success rate: 0.70
+Average surviving key guess number in stage1: 1600.80
+Average surviving key guess number in stage2: 5.00
+Average surviving key guess number in stage3: 1.60
+Average surviving key guess number in stage4: 0.70
+Tk surviving rate in stage1: 0.70
+Tk surviving rate in stage2: 0.70
+Tk surviving rate in stage3: 0.70
+Tk surviving rate in stage4: 0.70
+Average structure consumption: 0.00
+Average time used: 13149.01 seconds

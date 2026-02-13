@@ -1,0 +1,12 @@
+Attack Summary:
+Kg surviving rate: 0.52. Attack success rate: 0.51
+Average structure consumption: 0.00
+Average time used: 13557.64 seconds
+Average surviving key guess number in stage1: 1619.92
+Average surviving key guess number in stage2: 3.97
+Average surviving key guess number in stage3: 1.16
+Average surviving key guess number in stage4: 0.54
+Tk surviving rate in stage1: 0.77
+Tk surviving rate in stage2: 0.54
+Tk surviving rate in stage3: 0.53
+Tk surviving rate in stage4: 0.51
