@@ -763,7 +763,6 @@ public:
         bool attack_res;
         vector<linear_constraint> kg0_constraints = guessed_k0_bits;
         for (uint32_t attack_index = 0; attack_index < attack_num; attack_index++) {
-            // printf("Thread %lu: Starting attack index %u...\n", this_thread::get_id(), attack_index);
             fprintf(thread_output_file, "Attack index %u:\n", attack_index);
             generate_one_user_key(user_key, thread_random_generator);
             expand_key(user_key, rk, attack_nr);
@@ -790,12 +789,9 @@ public:
             kg_surviving = false;
             surviving_kg.cor = 0;
             auto start_t = chrono::system_clock::now();
-            // printf("Thread %lu: Tk0 value is %x\n", this_thread::get_id(), debug_tk0_value);
             fprintf(thread_output_file, "Tk0 value is %x\n", debug_tk0_value);
             // 1. Guess k0
-            // for (word kg0_value = debug_tk0_value; kg0_value <= debug_tk0_value; kg0_value++) {     // Backdoor: only using the true k0
             for (word kg0_value = 0; kg0_value < k0_space_size; kg0_value++) {
-                // printf("Thread %lu: Trying kg0 value %x\n", this_thread::get_id(), kg0_value);
                 fprintf(thread_output_file, "Trying kg0 value %x\n", kg0_value);
                 // Generate corresponding guess of k0
                 for (uint32_t i = 0; i < guessed_k0_bits.size(); i++) {
@@ -803,7 +799,6 @@ public:
                 }
                 word kg0 = gen_rand_word_with_linear_constraint(kg0_constraints, thread_random_generator);
                 // 2. Generate pseudoplaintext pairs conforming to the linear constraints, and collect ciphertext pairs
-                // printf("Thread %lu: Collect ciphertext pairs...\n", this_thread::get_id());
                 for (uint32_t i = 0; i < N_stage1; i++) {
                     dec_one_round(constrainted_p0[i], kg0, c0[i]);
                     dec_one_round(constrainted_p1[i], kg0, c1[i]);
@@ -812,10 +807,8 @@ public:
                     c0[i].second = ror(c0[i].second ^ c0[i].first, BETA);
                     c1[i].second = ror(c1[i].second ^ c1[i].first, BETA);
                 }
-                // printf("Thread %lu: Starting attack stages...\n", this_thread::get_id());
                 // 3. Attack with one structure in stage1
                 kg_surviving = attack_with_one_structure_stage1(c0, c1, surviving_kg);
-                // kg_surviving = attack_with_one_structure_stage2(c0, c1, 0, 0, surviving_kg);
                 fflush(thread_output_file);
                 if (kg_surviving) {
                     break;

@@ -7,3 +7,4 @@ for thread_id in range(50):
                 attack_success_num += 10 * float(line.split()[-1])
                 break
 print(f"Attack success num is {attack_success_num}.")
+print(f"Attack success rate is {attack_success_num / 500}.")
