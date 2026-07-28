@@ -33,7 +33,7 @@
  *   g++ -O2 -std=c++17 -o attack attack.cpp partial_dec.cpp tristate.cpp lea.cpp -pthread
  *
  * Example:
- *   ./attack --bits 18,57,8,64,47,23 --trials 100 --seed 100 --threads 8
+ *   ./attack --trials 100 --seed 100 --threads 8
  */
 
 #include "lea.h"
@@ -69,7 +69,7 @@ struct Config {
     bool random_mode = false;  // candidates are fully random 85-bit guesses
     double threshold = 0.1251; // threshold on Q(k) = T(k)/N_v(k)
     uint64_t cap = 0;          // valid-sample cap L = int(N * 2^-14.19) (set in main)
-    std::string bits_str;      // optional fixed guess-bit positions "i0,...,i5"
+    std::string bits_str = "18,57,8,64,47,23";  // 6 guess-bit positions in [0,85)
     bool use_delta = false;    // full Delta_in override via --delta
     word delta_hex[4] = {0, 0, 0, 0};
 };
@@ -101,7 +101,8 @@ bool parse_args(int argc, char** argv, Config& cfg) {
                 << "  --rounds <r>     total rounds (default 7; distinguisher = rounds-2)\n"
                 << "  --threshold <f>  Q(k) threshold (default 0.1251)\n"
                 << "  --delta <w0,w1,w2,w3>  Delta_in as 4 hex words (default: 0,40000000,0,0)\n"
-                << "  --bits <i0,..,i5>  fix the 6 guess-bit positions in [0,85)\n"
+                << "  --bits <i0,..,i5>  6 guess-bit positions in [0,85) "
+                   "(default: 18,57,8,64,47,23)\n"
                 << "  --no-check       disable the full-decryption sanity check\n";
             std::exit(0);
         } else if (arg == "--N") {
